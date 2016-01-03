@@ -1,9 +1,11 @@
 module.exports = {
-    noscript_warning: 'Please turn on Javascript.',
+    noscript_warning: 'Please turn on JavaScript.',
 
     signin_via_twitter: 'Sign in via Twitter',
-    signin_via_other_twitter: 'or via Twitter',
+    signin_via_vk: 'Sign in via VKontakte',
     signin_via_facebook: 'Sign in via Facebook',
+    signin_via_other_vk: 'or via VKontakte',
+    signin_via_other_twitter: 'or via Twitter',
     signin_via_other_facebook: 'or via Facebook',
 
     about: 'About',
@@ -18,17 +20,17 @@ module.exports = {
     index_page_title: 'Your wishlist without bullshit',
 
     index_page_bubble_head: 'Create<br>your<br>wishlist',
-    index_page_hearts_head: 'Group<br>gifts<br>by&nbsp;themes',
-    index_page_bird_head: 'Share<br>link<br>with&nbsp;friends',
+    index_page_hearts_head: 'Group<br>gifts<br>by themes',
+    index_page_bird_head: 'Share<br>link<br>with friends',
     index_page_gift_head: 'Receive<br>only<br>the right gifts',
     index_page_facts_about_us: 'Some facts about us',
 
     welcome_text: 'Write some welcome words.',
     wishes: 'Wishes',
-    wishes_empty_for_stranger: 'The List is empty.',
-    wishes_empty_for_owner: 'Your list is empty. Let\'t add something.',
+    wishes_empty_for_stranger: 'The list is empty.',
+    wishes_empty_for_owner: 'Your list is empty. Add something, don’t be shy.',
     antiwishes: 'Antiwishes',
-    antiwishes_empty: 'The List is empty. Please add antiwishes. It\'s a simple way to say "please, do not gift me things like this".',
+    antiwishes_empty: 'The List is empty. Please add antiwishes. It’s a simple way to say “please, don’t gift me anything like this”.',
 
     birthday: 'Born',
     today: 'Today',
@@ -64,18 +66,18 @@ module.exports = {
     ago: 'ago',
 
     months: [
-        'january',
-        'february',
-        'marth',
-        'april',
-        'may',
-        'june',
-        'july',
-        'august',
-        'september',
-        'october',
-        'november',
-        'december'
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December'
     ],
 
     no_search_results: 'No results', // TODO
@@ -88,27 +90,28 @@ module.exports = {
 
     explore_page_title: '10 random selected users',
     refresh: 'Refresh',
-    explore_page_para: 'Не нашли знакомых лиц? Возможно, они еще не знают о нашем сервисе... пригласите их!',
+    explore_page_para: 'Haven’t found anyone you know? Perhabs they’re not here yet… Invite them!',
 
     find_friends_page_title: 'Find friends',
 
     following_page_title: 'Friends',
+    following_page_no_friends: 'No friends.',
 
     settings_page_title: 'Settings',
     settings_form_name: 'Name',
     settings_form_username: 'Nickname',
-    settings_form_username_para: 'used for your url address:',
-    settings_form_username_is_free: 'ready for be taken',
-    settings_form_username_is_not_free: 'is already taken. Try another.',
-    settings_form_username_mask: 'Only latin lowercase letters, numbers and _ - .',
+    settings_form_username_para: 'Used in your list address:',
+    settings_form_username_is_free: 'is available',
+    settings_form_username_is_not_free: 'is already taken',
+    settings_form_username_mask: 'Only Latin lowercase letters, numbers and _ - .',
     settings_form_bd: 'Birthday',
     settings_form_hide_age: 'Hide age',
     settings_form_sex: 'Sex',
     settings_form_male: 'Male',
     settings_form_female: 'Female',
     settings_form_site: 'Site',
-    settings_form_email_para: 'Укажите вашу почту, если хотите получать уведомления о&nbsp;праздниках друзей и&nbsp;об&nbsp;изменении зарезервированных вами&nbsp;желаний.',
-    settings_form_i_agree_to_delete_me: 'Я хочу удалить мой профиль и все мои данные. Я понимаю, что это необратимая операция.',
+    settings_form_email_para: 'Fill you email if you want to be notified about you friend’s holidays and changes in reserved wishes.',
+    settings_form_i_agree_to_delete_me: 'I want to delete my profile and all data. I understand than it couldn’t be reverted.',
     settings_form_delete_me: 'Delete my profile',
     settings_form_save_button_title: 'Save'
 };
