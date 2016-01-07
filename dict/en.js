@@ -20,11 +20,21 @@ module.exports = {
     last_update: 'Last update',
 
     status_changed_my_mind: 'Change my mind',
+    status_changed_my_mind_back: 'Change my mind back',
     status_presented: 'Presented',
     status_bought: 'Bought',
     status_private: 'Hidden wish',
+    private_on: 'Make hidden',
+    private_off: 'Make public',
     status_reservedByMe: 'Reserved by Me',
+    status_remove_reserve: 'Remove reserve',
     status_reserved: 'Reserved',
+    remove_status: 'Remove status',
+    copy_wish: 'I want it too',
+    post_on_vk: 'Post on VKontakte…',
+    tweet: 'Write tweet…',
+    write_post: 'Write on Facebook…'
+    wish_added: 'Wish added to <a href="/{{username}}">your list</a>.',
 
     index_page_title: 'Your wishlist without bullshit',
     hide_wish_para: 'It’s a hidden wish, which is visible only to you.',
@@ -159,6 +169,7 @@ module.exports = {
     find_friends_page_empty_list_2: 'Расскажите друзьям и знакомым о Wantr-е!',
 
     category: 'Category',
+    category_name: 'Category name:',
     create_category: 'Create new…',
 
     // titles

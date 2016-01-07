@@ -20,11 +20,21 @@ module.exports = {
     last_update: 'Последнее обновление',
 
     status_changed_my_mind: 'Расхотелось',
+    status_changed_my_mind_back: 'Захотеть обратно',
     status_presented: 'Подарили!',
     status_bought: 'Сам{{genderPrefix}} себя порадовал{{genderPrefix}}',
     status_private: 'Скрытое желание',
+    private_on: 'Скрыть от чужих глаз',
+    private_off: 'Опубликовать для всех',
     status_reservedByMe: 'Собираюсь подарить',
+    status_remove_reserve: 'Не буду дарить',
     status_reserved: 'Зарезервировано',
+    remove_status: 'Убрать отметку',
+    copy_wish: 'Хочу в подарок',
+    post_on_vk: 'Опубликовать во вконтакте…',
+    tweet: 'Твитнуть про желание…',
+    write_post: 'Опубликовать в фейсбуке…',
+    wish_added: 'Желание добавлено в <a href="/{{username}}">ваш список</a>',
 
     index_page_title: 'Список ваших желаний',
     hide_wish_para: 'Это скрытое желание, которое видно только вам',
@@ -105,7 +115,7 @@ module.exports = {
 
     explore_page_title: '10 случайно выбранных пользователей',
     refresh: 'Обновить',
-    explore_page_para: 'Не нашли знакомых лиц? Возможно, они еще не знают о нашем сервисе... пригласите их!',
+    explore_page_para: 'Не нашли знакомых лиц? Возможно, они еще не знают о нашем сервисе… пригласите их!',
 
     find_friends_page_title: 'Поиск друзей',
     // Контекст: найти друзей на фейсбуке
@@ -159,7 +169,8 @@ module.exports = {
     find_friends_page_empty_list_2: 'расскажите друзьям и знакомым о wantr.ru!',
 
     category: 'Категория',
-    create_category: 'Создать новую...',
+    category_name: 'Название категории:',
+    create_category: 'Создать новую…',
 
     // titles
     html_title_api: 'Документация api',
