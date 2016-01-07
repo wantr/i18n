@@ -14,22 +14,33 @@ module.exports = {
     logout: 'Выйти',
     edit: 'Править',
     add: 'Добавить',
+    delete: 'Удалить',
     write: 'Написать',
+    hide: 'Скрыть',
     last_update: 'Последнее обновление',
 
+    status_changed_my_mind: 'Расхотелось',
+    status_presented: 'Подарили!',
+    status_bought: 'Сам{{genderPrefix}} себя порадовал{{genderPrefix}}',
+    status_private: 'Скрытое желание',
+    status_reservedByMe: 'Собираюсь подарить',
+    status_reserved: 'Зарезервировано',
+
     index_page_title: 'Список ваших желаний',
+    hide_wish_para: 'Это скрытое желание, которое видно только вам',
 
     index_page_bubble_head: 'Создайте<br>список<br>желаний',
     index_page_hearts_head: 'Сгруппируйте<br>желания<br>по&nbsp;темам',
     index_page_bird_head: 'Поделитесь<br>ссылкой<br>с&nbsp;друзьями',
     index_page_gift_head: 'Получайте<br>только<br>желанное',
     index_page_facts_about_us: 'Несколько фактов о нас',
+    index_page_follow_us: 'Следите за нашими обновлениями <a href="https://vk.com/wantr">во Вконтакте</a>, <a href="https://twitter.com/wantr_ru">Твиттере</a> и <a href="https://facebook.com/wantr.ru">Фейсбуке</a>.',
 
     welcome_text: 'Напишите вступительный текст. Здесь может быть обращение к&nbsp;друзьям, которое не&nbsp;укладывается в&nbsp;пункты желаний.',
-    wishes: 'Wishes',
+    wishes: 'Желания',
     wishes_empty_for_stranger: 'Список желаний пуст.',
     wishes_empty_for_owner: 'Список пуст. Добавьте несколько желаний, мечтать полезно ;)',
-    antiwishes: 'Antiwishes',
+    antiwishes: 'Антижелания',
     antiwishes_empty: 'Список пуст. Добавьте антижелания. Это простой способ сказать «Пожалуйста, не дарите мне это».',
 
     birthday: 'День рождения',
@@ -85,6 +96,7 @@ module.exports = {
 
     login_page_title: 'Стой, кто идет?',
     not_found_page_title: 'Страница не найдена',
+    not_found_page_para: 'Если вы ищете пользователя «{{login}}», то его здесь нет. Возможно, он еще не завел список желаний?',
     page_500_title: 'Лежим и не жужжим',
     internal_service_error: 'Внутренняя ошибка сервиса',
 
@@ -93,9 +105,17 @@ module.exports = {
     explore_page_para: 'Не нашли знакомых лиц? Возможно, они еще не знают о нашем сервисе... пригласите их!',
 
     find_friends_page_title: 'Поиск друзей',
+    // Контекст: найти друзей на фейсбуке
+    find_friends_page_facebook: 'на фейсбуке',
+    find_friends_page_vkontakte: 'во Вконтакте',
+    find_friends_page_twitter: 'в Твиттере',
 
     following_page_title: 'Друзья',
     following_page_no_friends: 'Нет друзей.',
+    following_page_find_friends: 'Найти <a href="/{{username}}/find-friends/">моих друзей</a> из {{social}}.',
+    following_page_facebook: 'Фейсбука',
+    following_page_vkontakte: 'Вконтакте',
+    following_page_twitter: 'Твиттера',
 
     settings_page_title: 'Настройки',
     settings_form_name: 'Имя',
@@ -104,7 +124,6 @@ module.exports = {
     settings_form_username_is_free: 'этот ник свободен',
     settings_form_username_is_not_free: 'такой ник занят',
     settings_form_username_mask: 'Можно использовать только латинский алфавит в нижнем регистре, цифры и&nbsp;символы _ - .',
-    //settings_form_username_is_not_free: 'Someone already has that username. Try another?',
     settings_form_bd: 'День рождения',
     settings_form_hide_age: 'Скрыть возраст',
     settings_form_sex: 'Пол',
@@ -114,5 +133,52 @@ module.exports = {
     settings_form_email_para: 'Укажите вашу почту, если хотите получать уведомления о&nbsp;праздниках друзей и&nbsp;об&nbsp;изменении зарезервированных вами&nbsp;желаний.',
     settings_form_i_agree_to_delete_me: 'Я хочу удалить мой профиль и все мои данные. Я понимаю, что это необратимая операция.',
     settings_form_delete_me: 'Удалить профиль',
-    settings_form_save_button_title: 'Сохранить'
+    settings_form_save_button_title: 'Сохранить',
+    settings_form_lang: 'Язык интерфейса',
+    language_name: 'Русский',
+    settings_form_facebook: 'на фейсбуке',
+    settings_form_vkontakte: 'во вконтакте',
+    settings_form_twitter: 'в твиттере',
+    settings_form_avatar_from: 'аватарка подгружается <a href="{{link}}" target="_blank">из вашего профиля {{social}}</a>.',
+
+    to_profile: 'к профилю',
+    welcome_text: 'вступительный текст',
+    welcome_text_placeholder: 'можете написать вступление или пояснения, которые не выразить пунктами списка желаний',
+
+    edit_page_antiwishes_descr: 'перечислите, чего вы не хотите видеть в качестве подарка.',
+    edit_page_save_button_title: 'Сохранить изменения',
+    edit_page_wish_descr: 'описание',
+    edit_page_antiwish_descr: 'описание',
+    edit_page_link_descr: 'ссылка',
+    edit_page_price_descr: 'цена',
+
+    find_friends_page_empty_list: 'вы счастливчик! вы — первый, среди ваших друзей {{social}}, кто зарегистрировался нашем сервисе.',
+    find_friends_page_empty_list_2: 'расскажите друзьям и знакомым о wantr.ru!',
+
+    category: 'Категория',
+    create_category: 'Создать новую...',
+
+    // titles
+    html_title_api: 'Документация api',
+    html_title_media: 'Медиа-материалы и гайдлайны',
+    'html_title_press-open': 'Пресс-релиз',
+    html_title_friends: 'друзья',
+    html_title_edit: 'Редактирование',
+    html_title_settings: 'Настройки',
+    html_title_404: '404',
+    html_title_500: '500',
+    html_title_login: 'Стой, кто идёт?',
+    html_title_search: 'Поиск',
+    'html_title_find-friends': 'Поиск друзей',
+    html_title_user: '{{placeholder}} — желания',
+    html_title_ny2014: 'С новым годом!',
+    html_title_explore: 'Наши пользователи',
+    html_title_default: 'Wantr.ru — список ваших желаний',
+
+    smm_i_want: 'Я хочу',
+    smm_wishes: 'желания',
+    smm_antiwishes: 'антижелания',
+    smm_antiwishes_para: 'Пожалуйста, не дарите мне',
+    smm_title: 'Создайте список желаний; Сгруппируйте желания по темам; Поделитесь ссылкой с друзьями; Получайте только желанные подарки!',
+    smm_slogan: '— Скажи мне чего ты хочешь, и я скажу «Заведи вишлист»'
 };
