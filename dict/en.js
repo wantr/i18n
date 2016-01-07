@@ -14,16 +14,27 @@ module.exports = {
     logout: 'Log out',
     edit: 'Edit',
     add: 'Add',
+    delete: 'Delete',
     write: 'Write',
+    hide: 'Hide',
     last_update: 'Last update',
 
-    index_page_title: 'Your wishlist without bullshit',
+    status_changed_my_mind: 'Change my mind',
+    status_presented: 'Presented',
+    status_bought: 'Bought',
+    status_private: 'Hidden wish',
+    status_reservedByMe: 'Reserved by Me',
+    status_reserved: 'Reserved',
 
-    index_page_bubble_head: 'Create<br>your<br>wishlist',
-    index_page_hearts_head: 'Group<br>gifts<br>by themes',
-    index_page_bird_head: 'Share<br>link<br>with friends',
-    index_page_gift_head: 'Receive<br>only<br>the right gifts',
+    index_page_title: 'Your wishlist without bullshit',
+    hide_wish_para: 'It’s a hidden wish, which is visible only to you.',
+
+    index_page_bubble_head: 'Create your<br>wishlist',
+    index_page_hearts_head: 'Group gifts<br>by themes',
+    index_page_bird_head: 'Share link<br>with friends',
+    index_page_gift_head: 'Receive only<br>the right gifts',
     index_page_facts_about_us: 'Some facts about us',
+    index_page_follow_us: 'Follow us <a href="https://vk.com/wantr">in VKontakte</a>, <a href="https://twitter.com/wantr_ru">Twitter</a> and <a href="https://facebook.com/wantr.ru">Facebook</a>.',
 
     welcome_text: 'Write some welcome words.',
     wishes: 'Wishes',
@@ -85,6 +96,7 @@ module.exports = {
 
     login_page_title: 'Who are you, stranger?',
     not_found_page_title: 'Page not found',
+    not_found_page_para: 'Maybe you are looking for user «{{login}}»… but we don’t have them.',
     page_500_title: 'Something went wrong :(',
     internal_service_error: 'Internal service error',
 
@@ -93,9 +105,17 @@ module.exports = {
     explore_page_para: 'Haven’t found anyone you know? Perhabs they’re not here yet… Invite them!',
 
     find_friends_page_title: 'Find friends',
+    // Контекст: найти друзей на фейсбуке
+    find_friends_page_facebook: 'on Facebook',
+    find_friends_page_vkontakte: 'on VKontakte',
+    find_friends_page_twitter: 'on Twitter',
 
     following_page_title: 'Friends',
     following_page_no_friends: 'No friends.',
+    following_page_find_friends: 'Found <a href="/{{username}}/find-friends/">my friends</a> from {{social}}.',
+    following_page_facebook: 'Facebook',
+    following_page_vkontakte: 'VKontakte',
+    following_page_twitter: 'Twitter',
 
     settings_page_title: 'Settings',
     settings_form_name: 'Name',
@@ -113,5 +133,52 @@ module.exports = {
     settings_form_email_para: 'Fill you email if you want to be notified about you friend’s holidays and changes in reserved wishes.',
     settings_form_i_agree_to_delete_me: 'I want to delete my profile and all data. I understand than it couldn’t be reverted.',
     settings_form_delete_me: 'Delete my profile',
-    settings_form_save_button_title: 'Save'
+    settings_form_save_button_title: 'Save',
+    settings_form_lang: 'Interface language',
+    language_name: 'English',
+    settings_form_facebook: 'on Facebook',
+    settings_form_vkontakte: 'on VKontakte',
+    settings_form_twitter: 'on Twitter',
+    settings_form_avatar_from: 'Avatar loaded <a href="{{link}}" target="_blank">from your profile {{social}}</a>.',
+
+    to_profile: 'To profile',
+    welcome_text: 'Welcome text',
+    welcome_text_placeholder: 'Welcome text', //'Можете написать вступление или пояснения, которые не выразить пунктами списка желаний',
+
+    edit_page_antiwishes_descr: 'List what you do not want to see as a gift.', // 'Перечислите, чего вы не хотите видеть в качестве подарка.',
+    edit_page_save_button_title: 'Save changes',
+    edit_page_wish_descr: 'Description',
+    edit_page_antiwish_descr: 'Description',
+    edit_page_link_descr: 'Link',
+    edit_page_price_descr: 'Price',
+
+    find_friends_page_empty_list: 'Вы счастливчик! вы — первый, среди ваших друзей {{social}}, кто зарегистрировался нашем сервисе.',
+    find_friends_page_empty_list_2: 'Расскажите друзьям и знакомым о Wantr-е!',
+
+    category: 'Category',
+    create_category: 'Create new…',
+
+    // titles
+    html_title_api: 'API Docs',
+    html_title_media: 'Guides and media files',
+    'html_title_press-open': 'Press-release',
+    html_title_friends: 'Friends',
+    html_title_edit: 'Edit',
+    html_title_settings: 'Settings',
+    html_title_404: '404',
+    html_title_500: '500',
+    html_title_login: 'Who are you, stranger?',
+    html_title_search: 'Search',
+    'html_title_find-friends': 'Search friends',
+    html_title_user: '{{placeholder}} — wishlist',
+    html_title_ny2014: 'Happy New Year!',
+    html_title_explore: 'Explore',
+    html_title_default: 'Wantr.ru — create wishlist',
+
+    smm_i_want: 'I want',
+    smm_wishes: 'wishes',
+    smm_antiwishes: 'antiwishes',
+    smm_antiwishes_para: 'Please, dont gift me it',
+    smm_title: 'Create wishlist; Group wishes by themes; Share link with friends; Receive only right gifts.', // 'Создайте список желаний; Сгруппируйте желания по темам; Поделитесь ссылкой с друзьями; Получайте только желанные подарки!',
+    smm_slogan: '— Tell me what you want and I say create wishlist'
 };
