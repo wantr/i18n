@@ -46,8 +46,11 @@ module.exports = {
     birthday: 'Born',
     today: 'Today',
     hbd: 'Happy birthday!',
-    turn_age: 'turn',
+    turn: 'turn',
     add_bd: 'Add birthday',
+    age_one: 'year old',
+    age_two: 'years old',
+    age_many: 'years old',
 
     find_friends: 'Find friends',
     add_friend: 'Add friend',
