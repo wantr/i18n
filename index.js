@@ -19,10 +19,10 @@ I18N.prototype = {
         var ret;
 
         if (req) {
-            if (req.query.locale) {
+            if (req.query && req.query.locale) {
                 ret = req.query.locale;
                 this.localeFrom = 'url';
-            } else if (req.cookies['set-locale']) {
+            } else if (req.cookies && req.cookies['set-locale']) {
                 ret = req.cookies['set-locale'];
                 this.localeFrom = 'cookie';
             }    
