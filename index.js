@@ -18,12 +18,14 @@ I18N.prototype = {
     setLocale: function setLocale(req) {
         var ret;
 
-        if (req.query.locale) {
-            ret = req.query.locale;
-            this.localeFrom = 'url';
-        } else if (req.cookies['set-locale']) {
-            ret = req.cookies['set-locale'];
-            this.localeFrom = 'cookie';
+        if (req) {
+            if (req.query.locale) {
+                ret = req.query.locale;
+                this.localeFrom = 'url';
+            } else if (req.cookies['set-locale']) {
+                ret = req.cookies['set-locale'];
+                this.localeFrom = 'cookie';
+            }    
         }
 
         this.lang = Object.keys(this.locales).indexOf(ret) === -1 ? 'en' : ret;
