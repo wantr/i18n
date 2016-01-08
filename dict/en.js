@@ -53,7 +53,7 @@ module.exports = {
     index_page_fact_address: 'Look ma, nice address: <a href="http://wantr.gift/{{word}}">wantr.gift/{{word}}</a> And for you we have one.',
     index_page_fact_antiwish: 'Antiwishes — one of unique features — say want you do not want anymore.',
     index_page_fact_currency: ' Wantr — first service whitch support bitcoin currency ;)',
-    index_page_fact_api: 'Want to see your wishes on yout standalone site or blog? See <a href="http://api.wantr.ru">our API</a>.',
+    index_page_fact_api: 'Want to see your wishes on yout standalone site or blog? See <a href="http://api.wantr.gift">our API</a>.',
     index_page_fact_no_spam: 'Service with out spam. Really.',
     index_page_fact_explore: 'We proud that we have <a href="/explore">such purposeful users</a>.',
 
@@ -198,7 +198,7 @@ module.exports = {
     html_title_user: '{{placeholder}} — wishlist',
     html_title_ny2014: 'Happy New Year!',
     html_title_explore: 'Explore',
-    html_title_default: 'Wantr.ru — create wishlist',
+    html_title_default: 'Wantr.gift — create wishlist',
 
     smm_i_want: 'I want',
     smm_wishes: 'wishes',
