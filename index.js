@@ -1,5 +1,7 @@
 var list = require('./list');
 
+const DEFAULT_LANGUAGE = 'ru';
+
 function I18N(req) {
     this.locales = list;
     this.setLocale(req);
@@ -25,7 +27,7 @@ I18N.prototype = {
             }
         }
 
-        this.lang = Object.keys(this.locales).indexOf(ret) === -1 ? 'en' : ret;
+        this.lang = Object.keys(this.locales).indexOf(ret) === -1 ? DEFAULT_LANGUAGE : ret;
 
         this.dictionary = require('./dict/' + this.lang);
     },
