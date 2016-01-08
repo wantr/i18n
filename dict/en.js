@@ -35,7 +35,7 @@ module.exports = {
     copy_wish: 'I want it too',
     post_on_vk: 'Post on VKontakte…',
     tweet: 'Write tweet…',
-    write_post: 'Write on Facebook…'
+    write_post: 'Write on Facebook…',
     wish_added: 'Wish added to <a href="/{{username}}">your list</a>.',
     i_want: 'I want',
     on_copy_fail: 'Something went wrong. Please try again…',
