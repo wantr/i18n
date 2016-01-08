@@ -19,7 +19,7 @@ module.exports = {
     hide: 'Hide',
     last_update: 'Last update',
 
-    status_changed_my_mind: 'Change my mind',
+    status_changed_my_mind: 'I changed my mind',
     status_make_changed_my_mind: 'Change my mind',
     status_changed_my_mind_back: 'Change my mind back',
     status_presented: 'Presented',
