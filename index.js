@@ -1,14 +1,8 @@
-// определение языка
-//  из get-параметра урла
-//  из куки
-//  из домена
-//  из настройки пользователя
 var list = require('./list');
 
 function I18N(req) {
     this.locales = list;
     this.setLocale(req);
-    this.setDictionary();
 };
 
 I18N.prototype = {
@@ -18,15 +12,22 @@ I18N.prototype = {
     setLocale: function setLocale(req) {
         var ret;
 
-        if (req.query.locale) {
-            ret = req.query.locale;
-            this.localeFrom = 'url';
-        } else if (req.cookies['set-locale']) {
-            ret = req.cookies['set-locale'];
-            this.localeFrom = 'cookie';
+        if (req) {
+            if (req.query && req.query.locale) {
+                ret = req.query.locale;
+                this.localeFrom = 'url';
+            } else if (req.user && req.user.locale) {
+                ret = req.user.locale;
+                this.localeFrom = 'user';
+            } else if (req.cookies && req.cookies.locale) {
+                ret = req.cookies.locale;
+                this.localeFrom = 'cookie';
+            }
         }
 
         this.lang = Object.keys(this.locales).indexOf(ret) === -1 ? 'en' : ret;
+
+        this.dictionary = require('./dict/' + this.lang);
     },
 
     getLocale: function getLocale() {
@@ -50,14 +51,6 @@ I18N.prototype = {
         return str.replace(re, function(all, k) {
             return data[k] || '';
         });
-    },
-
-    setDictionary: function setDictionary() {
-        if ( ! this.lang) {
-            throw new Error('I18N ERROR: lang required');
-        }
-
-        this.dictionary = require('./dict/' + this.lang);
     }
 };
 
