@@ -205,5 +205,7 @@ module.exports = {
     smm_antiwishes: 'antiwishes',
     smm_antiwishes_para: 'Please, dont gift me it',
     smm_title: 'Create wishlist; Group wishes by themes; Share link with friends; Receive only right gifts.', // 'Создайте список желаний; Сгруппируйте желания по темам; Поделитесь ссылкой с друзьями; Получайте только желанные подарки!',
-    smm_slogan: '— Tell me what you want and I say create wishlist'
+    smm_slogan: '— Tell me what you want and I say create wishlist',
+
+    want: 'want'
 };
