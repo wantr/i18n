@@ -64,7 +64,7 @@ module.exports = {
     antiwishes: 'Antiwishes',
     antiwishes_empty: 'The List is empty. Please add antiwishes. It’s a simple way to say “please, don’t gift me anything like this”.',
 
-    birthday: 'Born',
+    birthday: 'Birthday',
     today: 'Today',
     hbd: 'Happy birthday!',
     turn: 'turn',
