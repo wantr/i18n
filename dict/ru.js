@@ -82,7 +82,7 @@ module.exports = {
     plural_friends_many: 'друзей',
 
     month_later: 'Через месяц',
-    three_weeks_later: 'Осталось 3 недели',
+    three_weeks_later: 'Через 3 недели',
     day_after_tomorrow: 'Уже послезавтра',
     tomorrow: 'Завтра',
     today_upper: 'Сегодня',
