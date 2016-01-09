@@ -120,7 +120,7 @@ module.exports = {
 
     login_page_title: 'Who are you, stranger?',
     not_found_page_title: 'Page not found',
-    not_found_page_para: 'Maybe you are looking for user «{{login}}»… but we don’t have them.',
+    not_found_page_para: 'Maybe you are looking for user “{{login}}”… but we don’t have them.',
     page_500_title: 'Something went wrong :(',
     internal_service_error: 'Internal service error',
 
@@ -129,13 +129,12 @@ module.exports = {
     explore_page_para: 'Haven’t found anyone you know? Perhabs they’re not here yet… Invite them!',
 
     find_friends_page_title: 'Find friends',
-    // Контекст: найти друзей на фейсбуке
-    find_friends_page_facebook: 'on Facebook',
+    find_friends_page_facebook: 'on Facebook', // Context: “find friends on Facebook”
     find_friends_page_vkontakte: 'on VKontakte',
     find_friends_page_twitter: 'on Twitter',
 
     following_page_title: 'Friends',
-    following_page_no_friends: 'No friends.',
+    following_page_no_friends: 'Right now you have no friends.',
     following_page_find_friends: 'Found <a href="/{{username}}/find-friends/">my friends</a> from {{social}}.',
     following_page_facebook: 'Facebook',
     following_page_vkontakte: 'VKontakte',
@@ -207,5 +206,5 @@ module.exports = {
     smm_title: 'Create wishlist; Group wishes by themes; Share link with friends; Receive only right gifts.', // 'Создайте список желаний; Сгруппируйте желания по темам; Поделитесь ссылкой с друзьями; Получайте только желанные подарки!',
     smm_slogan: '— Tell me what you want and I say create wishlist',
 
-    want: 'want'
+    want: 'want' // Context: share buttons. Example: “I want Book of books”
 };
