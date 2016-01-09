@@ -2,9 +2,9 @@ module.exports = {
     noscript_warning: 'Для корректной работы сайта включите, пожалуйста, JavaScript.',
 
     signin_via_twitter: 'Войти через Твиттер',
-    signin_via_vk: 'Войти через Вконтакте',
+    signin_via_vk: 'Войти через ВКонтакте',
     signin_via_facebook: 'Войти через Фейсбук',
-    signin_via_other_vk: 'или через Вконтакте',
+    signin_via_other_vk: 'или через ВКонтакте',
     signin_via_other_twitter: 'или через Твиттер',
     signin_via_other_facebook: 'или через Фейсбук',
 
@@ -48,7 +48,7 @@ module.exports = {
     index_page_bird_head: 'Поделитесь<br>ссылкой<br>с&nbsp;друзьями',
     index_page_gift_head: 'Получайте<br>только<br>желанное',
     index_page_facts_about_us: 'Несколько фактов о нас',
-    index_page_follow_us: 'Следите за нашими обновлениями <a href="https://vk.com/wantr">во Вконтакте</a>, <a href="https://twitter.com/wantr_ru">Твиттере</a> и <a href="https://facebook.com/wantr.ru">Фейсбуке</a>.',
+    index_page_follow_us: 'Следите за нашими обновлениями <a href="https://vk.com/wantr">во ВКонтакте</a>, <a href="https://twitter.com/wantr_ru">Твиттере</a> и <a href="https://facebook.com/wantr.ru">Фейсбуке</a>.',
 
     index_page_fact_address: 'Смотрите, какой красивый адрес: <a href="http://wantr.ru/{{word}}">wantr.ru/{{word}}</a> И&nbsp;для вас найдется запоминающийся.',
     index_page_fact_antiwish: 'Антижелания — одна из наших уникальных функций — то, чего вы не&nbsp;хотели&nbsp;бы получать в&nbsp;подарок.',
@@ -131,14 +131,14 @@ module.exports = {
     find_friends_page_title: 'Поиск друзей',
     // Контекст: найти друзей на фейсбуке
     find_friends_page_facebook: 'на фейсбуке',
-    find_friends_page_vkontakte: 'во Вконтакте',
+    find_friends_page_vkontakte: 'во ВКонтакте',
     find_friends_page_twitter: 'в Твиттере',
 
     following_page_title: 'Друзья',
     following_page_no_friends: 'Нет друзей.',
     following_page_find_friends: 'Найти <a href="/{{username}}/find-friends/">моих друзей</a> из {{social}}.',
     following_page_facebook: 'Фейсбука',
-    following_page_vkontakte: 'Вконтакте',
+    following_page_vkontakte: 'ВКонтакте',
     following_page_twitter: 'Твиттера',
 
     settings_page_title: 'Настройки',
