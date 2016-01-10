@@ -176,7 +176,7 @@ module.exports = {
     edit_page_link_descr: 'Ссылка',
     edit_page_price_descr: 'Цена',
 
-    find_friends_page_empty_list: 'Вы счастливчик! вы — первый, среди ваших друзей {{social}}, кто зарегистрировался нашем сервисе.',
+    find_friends_page_empty_list: 'Вы счастливчик! Вы — первый, среди ваших друзей {{social}}, кто зарегистрировался здесь.',
     find_friends_page_empty_list_2: 'Расскажите друзьям и знакомым о Wantr!',
 
     category: 'Категория',
@@ -184,8 +184,8 @@ module.exports = {
     create_category: 'Создать новую…',
 
     // titles
-    html_title_api: 'Документация api',
-    html_title_media: 'Медиа-материалы и гайдлайны',
+    html_title_api: 'Документация по API',
+    html_title_media: 'Медиаматериалы и гайдлайны',
     'html_title_press-open': 'Пресс-релиз',
     html_title_friends: 'друзья',
     html_title_edit: 'Редактирование',
@@ -196,7 +196,7 @@ module.exports = {
     html_title_search: 'Поиск',
     'html_title_find-friends': 'Поиск друзей',
     html_title_user: '{{placeholder}} — желания',
-    html_title_ny2014: 'С новым годом!',
+    html_title_ny2014: 'С Новым годом!',
     html_title_explore: 'Наши пользователи',
     html_title_default: 'Wantr — список ваших желаний',
 
