@@ -34,8 +34,8 @@ module.exports = {
     status_reserved: 'Reserved',
     copy_wish: 'I want it too',
     post_on_vk: 'Post on VKontakte…',
-    tweet: 'Write tweet…',
-    write_post: 'Write on Facebook…',
+    tweet: 'Tweet about it…',
+    write_post: 'Post on Facebook…',
     wish_added: 'Wish added to <a href="/{{username}}">your list</a>.',
     i_want: 'I want',
     on_copy_fail: 'Something went wrong. Please try again…',
@@ -52,17 +52,17 @@ module.exports = {
 
     index_page_fact_address: 'Look ma, nice address: <a href="http://wantr.gift/{{word}}">wantr.gift/{{word}}</a> And for you we have one.',
     index_page_fact_antiwish: 'Antiwishes — one of unique features — say want you do not want anymore.',
-    index_page_fact_currency: ' Wantr — first service whitch support bitcoin currency ;)',
-    index_page_fact_api: 'Want to see your wishes on yout standalone site or blog? See <a href="http://api.wantr.gift">our API</a>.',
-    index_page_fact_no_spam: 'Service with out spam. Really.',
-    index_page_fact_explore: 'We proud that we have <a href="/explore">such purposeful users</a>.',
+    index_page_fact_currency: 'Wantr, the first service which supports Bitcoin currency ;)',
+    index_page_fact_api: 'Want to see your wishes on your standalone site or blog? See <a href="http://api.wantr.gift">our API</a>.',
+    index_page_fact_no_spam: 'Service without spam. Really.',
+    index_page_fact_explore: 'We proud that we have <a href="/explore">such ambitious users</a>.',
 
     welcome_text: 'Write some welcome words.',
     wishes: 'Wishes',
     wishes_empty_for_stranger: 'The list is empty.',
     wishes_empty_for_owner: 'Your list is empty. Add something, don’t be shy.',
     antiwishes: 'Antiwishes',
-    antiwishes_empty: 'The List is empty. Please add antiwishes. It’s a simple way to say “please, don’t gift me anything like this”.',
+    antiwishes_empty: 'The list is empty. Please add antiwishes. It’s a simple way to say “please, don’t gift me anything like this”.',
 
     birthday: 'Birthday',
     today: 'Today',
@@ -162,28 +162,28 @@ module.exports = {
     settings_form_facebook: 'on Facebook',
     settings_form_vkontakte: 'on VKontakte',
     settings_form_twitter: 'on Twitter',
-    settings_form_avatar_from: 'Avatar loaded <a href="{{link}}" target="_blank">from your profile {{social}}</a>.',
+    settings_form_avatar_from: 'Avatar is loaded <a href="{{link}}" target="_blank">from your {{social}} profile</a>.',
 
     to_profile: 'To profile',
     welcome_text: 'Welcome text',
     welcome_text_placeholder: 'Welcome text', //'Можете написать вступление или пояснения, которые не выразить пунктами списка желаний',
 
-    edit_page_antiwishes_descr: 'List what you do not want to see as a gift.', // 'Перечислите, чего вы не хотите видеть в качестве подарка.',
+    edit_page_antiwishes_descr: 'List what you don’t want to see as a gift.', // 'Перечислите, чего вы не хотите видеть в качестве подарка.',
     edit_page_save_button_title: 'Save changes',
     edit_page_wish_descr: 'Description',
     edit_page_antiwish_descr: 'Description',
     edit_page_link_descr: 'Link',
     edit_page_price_descr: 'Price',
 
-    find_friends_page_empty_list: 'Вы счастливчик! вы — первый, среди ваших друзей {{social}}, кто зарегистрировался нашем сервисе.',
-    find_friends_page_empty_list_2: 'Расскажите друзьям и знакомым о Wantr-е!',
+    find_friends_page_empty_list: 'You’re lucky! You’re the first among your friends on {{social}} registered here.',
+    find_friends_page_empty_list_2: 'Tell your friends about Wantr!',
 
     category: 'Category',
     category_name: 'Category name:',
     create_category: 'Create new…',
 
     // titles
-    html_title_api: 'API Docs',
+    html_title_api: 'API documentation',
     html_title_media: 'Guides and media files',
     'html_title_press-open': 'Press-release',
     html_title_friends: 'Friends',
@@ -202,9 +202,9 @@ module.exports = {
     smm_i_want: 'I want',
     smm_wishes: 'wishes',
     smm_antiwishes: 'antiwishes',
-    smm_antiwishes_para: 'Please, dont gift me it',
-    smm_title: 'Create wishlist; Group wishes by themes; Share link with friends; Receive only right gifts.', // 'Создайте список желаний; Сгруппируйте желания по темам; Поделитесь ссылкой с друзьями; Получайте только желанные подарки!',
-    smm_slogan: '— Tell me what you want and I say create wishlist',
+    smm_antiwishes_para: 'Please, don’t gift it to me',
+    smm_title: 'Create wishlist; Group wishes by types; Share link with friends; Receive only the right gifts.', // 'Создайте список желаний; Сгруппируйте желания по темам; Поделитесь ссылкой с друзьями; Получайте только желанные подарки!',
+    smm_slogan: '— Tell me what you want and I tell you “create a wishlist”',
 
     want: 'want' // Context: share buttons. Example: “I want Book of books”
 };
