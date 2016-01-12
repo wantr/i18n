@@ -48,7 +48,7 @@ module.exports = {
     index_page_bird_head: 'Share link<br>with friends',
     index_page_gift_head: 'Receive only<br>the right gifts',
     index_page_facts_about_us: 'Some facts about us',
-    index_page_follow_us: 'Follow us on <a href="https://vk.com/wantr">VKontakte</a>, <a href="https://twitter.com/wantr_ru">Twitter</a> and <a href="https://facebook.com/wantr.ru">Facebook</a>.',
+    index_page_follow_us: 'Follow us on <a href="https://facebook.com/wantr.ru">Facebook</a>, <a href="https://twitter.com/wantr_ru">Twitter</a> and <a href="https://vk.com/wantr">VKontakte</a>.',
 
     index_page_fact_address: 'Look ma, nice address: <a href="http://wantr.gift/{{word}}">wantr.gift/{{word}}</a> And for you we have one.',
     index_page_fact_antiwish: 'Antiwishes — one of unique features — say want you do not want anymore.',
