@@ -40,7 +40,7 @@ module.exports = {
     i_want: 'I want',
     on_copy_fail: 'Something went wrong. Please try again…',
 
-    index_page_title: 'Your wishlist without bullshit',
+    index_page_title: 'No bullshit in your wishlist',
     hide_wish_para: 'It’s a hidden wish, which is visible only to you.',
 
     index_page_bubble_head: 'Create your<br>wishlist',
