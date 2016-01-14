@@ -86,7 +86,7 @@ module.exports = {
     day_after_tomorrow: 'Уже послезавтра',
     tomorrow: 'Завтра',
     today_upper: 'Сегодня',
-    yesterday: 'Был вчера',
+    yesterday: 'Вчера',
     just: 'только что',
     after: 'Через',
     day_one: 'день',
