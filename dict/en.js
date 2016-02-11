@@ -24,8 +24,10 @@ module.exports = {
     status_changed_my_mind_back: 'Change my mind back',
     status_presented: 'Presented',
     status_undo_presented: 'Undo presented',
-    status_bought: 'Bought',
-    status_undo_bought: 'Undo bought',
+    status_bought_men: 'Bought',
+    status_bought_women: 'Bought',
+    status_undo_bought_men: 'Undo bought',
+    status_undo_bought_women: 'Undo bought',
     status_private: 'Hidden wish',
     private_on: 'Make hidden',
     private_off: 'Make public',
@@ -165,7 +167,6 @@ module.exports = {
     settings_form_avatar_from: 'Avatar is loaded <a href="{{link}}" target="_blank">from your {{social}} profile</a>.',
 
     to_profile: 'To profile',
-    welcome_text: 'Welcome text',
     welcome_text_placeholder: 'Welcome text', //'Можете написать вступление или пояснения, которые не выразить пунктами списка желаний',
 
     edit_page_antiwishes_descr: 'List what you don’t want to see as a gift.', // 'Перечислите, чего вы не хотите видеть в качестве подарка.',

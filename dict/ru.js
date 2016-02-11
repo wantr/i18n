@@ -24,8 +24,10 @@ module.exports = {
     status_changed_my_mind_back: 'Захотеть обратно',
     status_presented: 'Подарили!',
     status_undo_presented: 'Убрать отметку «подарили»',
-    status_bought: 'Сам{{genderPrefix}} себя порадовал{{genderPrefix}}',
-    status_undo_bought: 'Убрать отметку «Сам{{genderPrefix}} себя порадовал{{genderPrefix}}»',
+    status_bought_men: 'Сам себя порадовал',
+    status_bought_woman: 'Сама себя порадовала',
+    status_undo_bought_men: 'Убрать отметку «Сам себя порадовал»',
+    status_undo_bought_woman: 'Убрать отметку «Сама себя порадовала»',
     status_private: 'Скрытое желание',
     private_on: 'Скрыть от чужих глаз',
     private_off: 'Опубликовать для всех',
@@ -166,7 +168,6 @@ module.exports = {
     settings_form_avatar_from: 'Аватарка подгружается <a href="{{link}}" target="_blank">из вашего профиля {{social}}</a>.',
 
     to_profile: 'к профилю',
-    welcome_text: 'Вступительный текст',
     welcome_text_placeholder: 'Можете написать вступление или пояснения, которые не выразить пунктами списка желаний',
 
     edit_page_antiwishes_descr: 'Перечислите, чего вы не хотите видеть в качестве подарка.',

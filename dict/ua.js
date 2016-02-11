@@ -24,10 +24,10 @@ module.exports = {
     status_changed_my_mind_back: 'Знову хочу',
     status_presented: 'Подарували!',
     status_undo_presented: 'Прибрати позначку «подарували»',
-    status_bought: 'Сам себе порадував',
-    //status_bought: 'Сама себе порадувала',
-    status_undo_bought: 'Прибрати позначку «Сам себе порадував»',
-    //status_undo_bought: 'Прибрати позначку «Сама себе порадувала»',
+    status_bought_men: 'Сам себе порадував',
+    status_bought_woman: 'Сама себе порадувала',
+    status_undo_bought_men: 'Прибрати позначку «Сам себе порадував»',
+    status_undo_bought_woman: 'Прибрати позначку «Сама себе порадувала»',
     status_private: 'Приховане бажання',
     private_on: 'Приховати від чужих очей',
     private_off: 'Опублікувати для всіх',
@@ -168,7 +168,6 @@ module.exports = {
     settings_form_avatar_from: 'Аватарка підвантажується <a href="{{link}}" target="_blank">з вашого профілю {{social}}</a>.',
 
     to_profile: 'до профіля',
-    welcome_text: 'Вступний текст',
     welcome_text_placeholder: 'Можете написати вступ або пояснення, яке не висловити пунктами списку бажань',
 
     edit_page_antiwishes_descr: 'Опишіть, чого б ви не хотіли в подарунок.',
