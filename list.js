@@ -1,4 +1,5 @@
 module.exports = {
     ru: 'Русский',
-    en: 'English'
+    en: 'English',
+    ua: 'Українська'
 };
