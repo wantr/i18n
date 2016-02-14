@@ -17,7 +17,7 @@ module.exports = {
     delete: 'Видалити',
     write: 'Написати',
     hide: 'Приховати',
-    last_update: 'Свіже оновлення',
+    last_update: 'Оновлено',
 
     status_changed_my_mind: 'Перехотілося',
     status_make_changed_my_mind: 'Не хочу',
