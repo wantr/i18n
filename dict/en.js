@@ -11,6 +11,7 @@ module.exports = {
     about: 'About',
     settings: 'Settings',
     search: 'Search',
+    blog: 'Blog (russian)',
     logout: 'Log out',
     edit: 'Edit',
     add: 'Add',

@@ -11,6 +11,7 @@ module.exports = {
     about: 'О проекте',
     settings: 'Настройки',
     search: 'Поиск',
+    blog: 'Блог',
     logout: 'Выйти',
     edit: 'Править',
     add: 'Добавить',
