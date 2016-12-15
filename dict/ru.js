@@ -52,7 +52,7 @@ module.exports = {
     plural_wish_many: 'желаний',
     in_archive: 'в архиве',
 
-    index_page_title: 'Список ваших желаний',
+    index_page_title: 'Составьте вишлист — помогите вашим друзьям выбрать вам подарок',
     hide_wish_para: 'Это скрытое желание, которое видно только вам',
 
     index_page_bubble_head: 'Создайте<br>список<br>желаний',
