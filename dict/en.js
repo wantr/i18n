@@ -52,7 +52,7 @@ module.exports = {
     plural_wish_many: 'wishes',
     in_archive: 'in archive',
 
-    index_page_title: 'No bullshit in your wishlist',
+    index_page_title: 'Your wishlist',
     hide_wish_para: 'It’s a hidden wish, which is visible only to you.',
 
     index_page_bubble_head: 'Create your<br>wishlist',
@@ -67,7 +67,24 @@ module.exports = {
     index_page_fact_currency: 'Wantr, the first service which supports Bitcoin currency ;)',
     index_page_fact_api: 'Want to see your wishes on your standalone site or blog? See <a href="http://api.wantr.gift">our API</a>.',
     index_page_fact_no_spam: 'Service without spam. Really.',
-    index_page_fact_explore: 'We proud that we have <a href="/explore">such ambitious users</a>.',
+    index_page_fact_explore: 'We proud that we have <a href="/search">such ambitious users</a>',
+    index_page_what_you_like_recently: 'Think what you like recently?',
+    index_page_about_total_wishes_count: 'Our users have more than 8,000 wishes. Every eighth wish fulfilled. Come true and your.',
+    index_page_opinions_about_us: 'Feedback from our users',
+    index_page_write_down_your_wishes: 'Write down your desires, create a wishlist',
+
+    vision_their_title: 'What to give to friends or colleagues?',
+    vision_their_para1: 'Find out what they want. Be aware when they update their wishlist.',
+    vision_their_para2: 'If you can’t find suitable option in the list, archive can prompt direction.',
+    vision_their_para3: 'Come true wishes can help not to be trapped.',
+    vision_their_para4: 'Antiwishes point to the restricted areas.',
+    vision_their_cite: '“Making gifts is great, especially when sure that the gift will like.”',
+
+    vision_you_title: 'How to please you?',
+    vision_you_para1: 'Write down everything that you please. And Wantr help your friends know that you want. Forget about boring presents, receive only a welcome.',
+    vision_you_para2: 'Organize your aspirations. Maintain a list of desires helps you see things in a new way, to understand what you really want . What is transient and fleeting, and what is useful, convenient and brings pleasure and satisfaction.',
+    vision_you_para3: 'Wantr tell you what other people want. It will help to know about the cool things, the existence of which you never knew existed.',
+    vision_you_cite: '“Writing down goals, desires and dreams, you make a huge step towards their implementation.”',
 
     welcome_text: 'Write some welcome words.',
     wishes: 'Wishes',
