@@ -1,4 +1,4 @@
-# [Wantr](http://wantr.gift/) i18n
+# [Wantr](http://wantr.ru/) i18n
 
 ## How to contribute
 
